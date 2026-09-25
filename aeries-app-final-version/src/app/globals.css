@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #6c5ce7;
+  --accent-dark: #5642c9;
+}
+
+body {
+  background: #f6f7fb;
+  color: #1f2430;
+}
+
+.btn-primary {
+  @apply w-full rounded-[10px] bg-accent py-3 text-sm font-bold text-white transition hover:bg-accentDark disabled:opacity-50;
+}
+
+.btn-outline {
+  @apply rounded-[9px] border border-accent px-4 py-2 text-sm font-bold text-accent transition hover:bg-accentSoft;
+}
+
+.card {
+  @apply rounded-2xl border border-line bg-white p-6 shadow-sm;
+}
+
+.input {
+  @apply w-full rounded-[10px] border border-line px-3 py-3 text-sm outline-none focus:border-accent;
+}

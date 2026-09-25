@@ -1,0 +1,33 @@
+ALTER TABLE "companies" ADD COLUMN "demo_at" timestamp;--> statement-breakpoint
+ALTER TABLE "companies" ADD COLUMN "demo_confirmed" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "employee_age" integer DEFAULT 30 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "spouse_count" integer DEFAULT 0 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "child_count" integer DEFAULT 0 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "parent_count" integer DEFAULT 0 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "parent_in_law_count" integer DEFAULT 0 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "dep_spouse_age" integer DEFAULT 30 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "dep_child_age" integer DEFAULT 10 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "dep_parent_age" integer DEFAULT 60 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "dep_parent_in_law_age" integer DEFAULT 60 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "gmc_super_emp_added" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "gmc_super_emp_tier" integer DEFAULT 500000 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "gmc_super_emp_ded" integer DEFAULT 300000 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "gmc_base_dep_added" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "gmc_super_dep_added" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "gmc_super_dep_tier" integer DEFAULT 500000 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "gmc_super_dep_ded" integer DEFAULT 300000 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "opd_emp_added" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "opd_emp_tier" integer DEFAULT 10000 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "opd_dep_added" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "opd_dep_tier" integer DEFAULT 10000 NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "cyber" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "reset_weight" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "stress_mastery" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "pet_insurance" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "reset_diabetes" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "elder_premium" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "elder_plus" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "elder_essentials" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "p1" boolean DEFAULT true NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "p2" boolean DEFAULT true NOT NULL;--> statement-breakpoint
+ALTER TABLE "employees" ADD COLUMN "p3" boolean DEFAULT true NOT NULL;
